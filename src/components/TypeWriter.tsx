@@ -39,7 +39,7 @@ export default function TypeWriter({ prefix, items, time = 1000 }: Props) {
           <TypeAnimation
             sequence={sequence}
             speed={10}
-            deletionSpeed={50}
+            deletionSpeed={20}
             repeat={Infinity}
             className="select-none"
           />

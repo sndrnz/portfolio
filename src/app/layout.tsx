@@ -3,7 +3,10 @@ import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-const robotoMono = Roboto_Mono({ subsets: ["latin"], weight: ["200", "300"] });
+const robotoMono = Roboto_Mono({
+  subsets: ["latin"],
+  weight: ["100", "200", "300"],
+});
 
 export const metadata: Metadata = {
   title: "sndrnz",

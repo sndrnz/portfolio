@@ -6,6 +6,17 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    "text-code-typescript",
+    "text-code-swift",
+    "text-code-react",
+    "text-code-graphql",
+    "text-code-rust",
+    "text-code-next",
+    "text-code-tailwind",
+    "text-code-node",
+    "text-code-javascript",
+  ],
   theme: {
     extend: {
       colors: {
@@ -15,7 +26,7 @@ const config: Config = {
           react: "#2c9ecb",
           graphql: "#e632ad",
           rust: "#e43926",
-          next: "#ffffff",
+          next: "#888888",
           tailwind: "#38bdf8",
           node: "#57a646",
           javascript: "#edd84e",
