@@ -1,6 +1,6 @@
-import Links from "@/components/page/Links";
-import Profile from "@/components/page/Profile";
-import Technologies from "@/components/page/Technologies";
+import Links from "~/components/Links";
+import Profile from "~/components/Profile";
+import Technologies from "~/components/Technologies";
 
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
-import { links } from "@/data/links";
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { links } from "~/data/links";
 
 export type Links = {
   url: string;

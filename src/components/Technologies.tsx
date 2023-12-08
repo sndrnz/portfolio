@@ -1,5 +1,5 @@
-import { technologies } from "@/data/technologies";
-import TypeWriter from "../TypeWriter";
+import { technologies } from "~/data/technologies";
+import TypeWriter from "./TypeWriter";
 
 export default function Technologies() {
   return (

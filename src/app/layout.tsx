@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { Inter, Roboto_Mono } from "next/font/google";
+import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
   weight: ["100", "200", "300"],
@@ -10,7 +9,7 @@ const robotoMono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: "sndrnz",
-  description: "thats me",
+  description: "that's me",
 };
 
 export default function RootLayout({

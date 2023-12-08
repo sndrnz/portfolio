@@ -6,6 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 export type TextItem = {
   text: string;
   className?: string;
+  hide?: boolean;
 };
 
 type Props = {
@@ -18,6 +19,7 @@ export default function TypeWriter({ prefix, items, time = 1000 }: Props) {
   const [className, setClassName] = useState(items.at(0)?.className ?? "");
 
   const sequence = items
+    .filter((item) => !item.hide)
     .map((item) => {
       return [
         () => {

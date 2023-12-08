@@ -1,5 +1,5 @@
-import profile from "@/assets/profile.png";
 import Image from "next/image";
+import profile from "~/assets/profile.png";
 
 export default function Profile() {
   return (

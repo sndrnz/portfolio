@@ -1,4 +1,4 @@
-import { TextItem } from "@/components/TypeWriter";
+import { TextItem } from "~/components/TypeWriter";
 
 export const technologies: TextItem[] = [
   {
@@ -8,6 +8,7 @@ export const technologies: TextItem[] = [
   {
     text: "swift",
     className: "text-code-swift",
+    hide: true,
   },
   {
     text: "react",
@@ -16,14 +17,24 @@ export const technologies: TextItem[] = [
   {
     text: "graphql",
     className: "text-code-graphql",
+    hide: true,
   },
   {
     text: "rust",
     className: "text-code-rust",
+    hide: true,
   },
   {
     text: "nextjs",
     className: "text-code-next",
+  },
+  {
+    text: "trpc",
+    className: "text-code-trpc",
+  },
+  {
+    text: "prisma",
+    className: "text-code-prisma",
   },
   {
     text: "tailwindcss",
@@ -36,5 +47,6 @@ export const technologies: TextItem[] = [
   {
     text: "javascript",
     className: "text-code-javascript",
+    hide: true,
   },
 ];
