@@ -1,14 +1,13 @@
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FaEnvelope, FaGithub } from "react-icons/fa";
 import { Links } from "~/components/Links";
 
 export const links: Links = [
   {
     url: "mailto:hello@sndrnz.io",
-    icon: faEnvelope,
+    icon: FaEnvelope,
   },
   {
     url: "https://github.com/sndrnz",
-    icon: faGithub,
+    icon: FaGithub,
   },
 ];

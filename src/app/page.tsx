@@ -4,8 +4,8 @@ import Technologies from "~/components/Technologies";
 
 export default function Home() {
   return (
-    <main className="container mx-auto max-w-4xl h-screen flex md:items-center justify-center">
-      <div className="p-8 w-full max-w-lg">
+    <main className="container mx-auto max-w-4xl h-screen flex items-center justify-center">
+      <div className="p-8 shadow-2xl w-full max-w-lg bg-transparent backdrop-blur-md rounded-xl">
         <Profile />
         <div className="font-light mb-4 mt-8">
           <div className="flex justify-between items-end">

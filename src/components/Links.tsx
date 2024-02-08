@@ -1,21 +1,17 @@
-import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { IconType } from "react-icons";
 import { links } from "~/data/links";
 
 export type Links = {
   url: string;
-  icon: IconDefinition;
+  icon: IconType;
 }[];
 
 export default function Links() {
   return (
-    <div className="flex gap-x-4 h-min text-white/30">
-      {links.map(({ url, icon }) => (
+    <div className="flex items-center gap-x-4 text-white">
+      {links.map(({ url, icon: Icon }) => (
         <a target="_blank" key={url} href={url}>
-          <FontAwesomeIcon
-            className="h-8 aspect-square hover:text-white/40"
-            icon={icon}
-          />
+          <Icon size={32} className="aspect-square hover:opacity-80" />
         </a>
       ))}
     </div>
